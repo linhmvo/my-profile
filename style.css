@@ -1,0 +1,102 @@
+body {
+	background-image: url(images/background.jpg);
+	background-repeat: repeat;
+	background-size: contain;
+	font-family: 'Exo', sans-serif;
+	font-size: 14px;
+	line-height: 1.5;
+	color: rgb(15,15,15);
+	font-weight: 400;
+	text-decoration: none;
+	text-align: center;
+}
+h1,h2,a {
+	font-family: 'Krona One', sans-serif;
+	color: rgb(15,15,15);
+}
+h1 {
+	font-size: 50px;
+}
+h2 {
+	font-size: 30px;
+}
+p {
+	margin: 40px 110px;
+}
+a {
+	text-decoration: none;
+	transition: color 0.3s ease;
+}
+a:hover {
+	color: rgb(230,230,230);
+	text-decoration: none;
+}
+.container {
+	width: 1000px;
+	margin: 50px auto;
+}
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+.card-white {
+  background: white;
+  padding: 50px;
+  margin: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+.card-white h2 {
+	color: black;
+}
+.card-black {
+	background-color: rgb(15,15,15);
+  color: white;
+  padding: 50px;
+  margin: 10px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+  border-radius: 4px;
+}
+.card-black h1,h2 {
+	color: white;
+}
+.img-circle {
+  border-radius: 50%;
+}
+.btn-white {
+	background: white;
+	color: rgb(15,15,15);
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+.btn-white:hover {
+	background: rgb(230,230,230);
+	color: white;
+}
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: white;
+}
+.list-inline i:hover {
+	font-size: 50px;
+	color: rgb(230,230,230);
+}
